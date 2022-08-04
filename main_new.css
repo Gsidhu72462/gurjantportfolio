@@ -57,3 +57,36 @@ h2.flood {
     align-items: baseline;
     /* margin-bottom: 12em; */
 }
+
+@media screen and (max-width:400px) {
+    h2.flood {
+        display: flex;
+        margin-top: -3.5rem;
+        /* margin-bottom: -35.4rem; */
+        margin-left: 11.5rem;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: baseline;
+        /* margin-bottom: 12em; */
+        font-size: 5rem;
+    }    
+
+  
+  }
+  
+  @media screen and (max-width:350px) {
+    h2.flood {
+        display: flex;
+        margin-top: -3.5rem;
+        /* margin-bottom: -35.4rem; */
+        margin-left: 11.5rem;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: baseline;
+        /* margin-bottom: 12em; */
+        font-size: 5rem;
+    }
+  
+  }
